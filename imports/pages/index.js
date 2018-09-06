@@ -1,5 +1,5 @@
-import Landing from './Landing
-import UserPage from './UserPage
+import Landing from './Landing'
+import UserPage from './UserPage'
 
 export {
     Landing,
