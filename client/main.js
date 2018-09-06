@@ -1,9 +1,10 @@
 import React from 'react'
 import { render } from 'react-dom'
+import App from '/imports/startup/App'
 
 Meteor.startup(() => {
     console.log('CLIENT : init')
     render(
-        <p>izejfoizjef</p>, document.getElementById('root')
+        <App/>, document.getElementById('root')
     )
 })
